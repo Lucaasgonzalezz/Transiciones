@@ -1,0 +1,29 @@
+h1{
+    background-color: aqua;
+    width: 10%;
+    text-align: center;
+    padding-top: 35px;
+    height: 80px;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    animation-name: potrero;
+    animation-duration: 4s;
+}
+
+@keyframes potrero{
+    from{justify-content: center;}
+    to{justify-content: end;}
+}
+
+@keyframes potrero{
+    0% {justify-content: center;}
+    25% {padding-left: 25%;}
+    50% { padding-left: 50%;}
+    75% { padding-left: 75%;}
+    100% {justify-content: end;padding-left: 0;} 
+}
+
